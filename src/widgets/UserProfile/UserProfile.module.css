@@ -1,0 +1,26 @@
+.userProfileContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 400px;
+  gap: 5px;
+}
+.nameContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.userProfileHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.userProfileHeader > h2 {
+  margin: 0;
+}
+.exitButtonUserProfile {
+  display: flex;
+  cursor: pointer;
+}
+.exitButtonUserProfile > img {
+  width: 23px;
+}

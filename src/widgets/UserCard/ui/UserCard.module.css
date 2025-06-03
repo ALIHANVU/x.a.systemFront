@@ -1,0 +1,40 @@
+.userCard {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 10px 1px rgba(34, 60, 80, 0.2);
+  margin: 20px;
+  width: 400px;
+  background-color: white;
+  height: 300px;
+  color: black;
+}
+.userInfo {
+  display: flex;
+  margin-bottom: 10px;
+}
+.userHeaderText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+.userRating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.ratingNum {
+  font-weight: 500;
+}
+.commentContainer {
+  display: flex;
+  align-items: center;
+}
+.skillInfo {
+  display: -webkit-box;
+  line-clamp: 6;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

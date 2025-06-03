@@ -1,0 +1,10 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.searchBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

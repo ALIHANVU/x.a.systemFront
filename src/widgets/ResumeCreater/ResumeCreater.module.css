@@ -1,0 +1,10 @@
+.createResumeContainer {
+  width: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+  border-radius: 10px;
+  box-shadow: 0px 5px 13px -5px rgba(34, 60, 80, 0.2);
+}

@@ -1,0 +1,31 @@
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.specialContainer {
+  width: 230px;
+}
+.skillsContainer {
+  width: 400px;
+}
+.mailInput {
+  width: 300px;
+}
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.aboutMeContainer {
+  width: 450px;
+}
+.buttonContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  width: 220px;
+}
